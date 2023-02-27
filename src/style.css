@@ -1,0 +1,106 @@
+@font-face {
+  font-family: "MyFont";
+  src: url("../fonts/Roboto-Regular.ttf") format("ttf"),
+    url("../fonts/Roboto-Medium.ttf") format("ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Warp";
+  src: url("../fonts/TiltWarp-Regular.ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+html {
+  font-family: "Warp";
+  background-color: #ffe7de;
+}
+
+.hello {
+  color: red;
+}
+
+.navBarDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #e9b1cd;
+}
+
+button {
+  font-size: 20px;
+  flex: 1;
+  padding: 10px 0px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
+  font-family: "Warp";
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #8d5e72;
+  color: white;
+}
+
+.headerDiv {
+  color: #562135;
+  padding: 10px 5px;
+  display: flex;
+  justify-content: center;
+  background-color: #c3829e;
+  font-size: 50px;
+  font-style: italic;
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+.mainDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentArea {
+  width: 50%;
+}
+
+.pageHeader {
+  font-family: "Warp";
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+}
+
+.homeParagraph {
+  margin: 40px 0px;
+  font-family: "MyFont";
+  font-size: 20px;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+.dishDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  border: 1px solid rgba(86, 33, 53, 0.2);
+  margin-bottom: 25px;
+  text-align: center;
+}
